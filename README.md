@@ -68,3 +68,42 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Proyecto final
+
+Este proyecto esta enfocado en una pagina web de ventas de celulares.
+
+todo el proyecto esta estructurado con boostrap.
+
+tenemos 5 secciones en el navBar: Tienda de celulares, inicio, galeria, compras y un carrito de compras
+
+# Tienda de celulares - inicio van a la misma ruta de "/"
+
+cuenta con un una imagen de fondo y las 4 marcas de los celulares que entan en venta.
+
+# Galeria 
+
+Galeria contiene las cards con todos los celulares disponibles a la venta.
+
+# Compras
+
+compras contiene un input para ingresar el codigo de la venta para ver tu pedido
+
+# carrito 
+
+el carrito de compra contiene los pruductos selecionados con sus respetivos botones.
+al final de la compra te lleva a un fomulario donde el cliente ingresa sus datos y se le da el codigo de la compra.
+
+# 4 marcas
+
+contiene las cards de la marca seleccionada
+
+# Cards
+
+contiene los datos del celular (precio, titulo, memoria, etc)
+
+
+# footer 
+contamos con las Redes sociales (como la pagina no cuenta con Redes propias los botones llega al inicio de la red social seleccionada)
+contamos con las 4 marcas : samsung, motorola, xiaomi y iphone
+copyright
