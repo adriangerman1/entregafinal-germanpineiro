@@ -5,9 +5,160 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App{
+  background-color: rgba(208, 187, 228, 0.507);
+  /* background-color:rgba(169, 169, 169, 0.541) */
+  
+}
+
+.boxNavbar a{
+  text-decoration: none ;
+}
+
+
+.boxMarcas{
+  background-color:ghostwhite ;
+}
+
+.boxMarcas a{
+  height: 25px;
+  text-decoration: none ;
+}
+
+.boxFooter{
+  
+  background-color:ghostwhite ;
+}
+
+.listaFooter{
+  list-style-type:none;
+  
+}
+.listaFooter a{
+  text-decoration: none ;
+}
+
+.listaRedes{
+  list-style-type:none;
+}
+
+.redes{
+  
+  padding: 30px;
+}
+
+.boxListCard{
+  -webkit-transition: 0.5s linear;
+  transition: 0.5s linear; 
+
+  text-shadow: 3px 3px 2px rgba(152, 150, 207, 0.7)
+}
+
+.boxListCard:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.boxCard {
+  width: 18rem
+}
+
+.boxCard img{
+  height:500px;
+}
+
+.boxInicio img{
+  width: 100%;
+}
+
+.boxInicio{
+
+  width: 100%;
+  height: 800px;
+  background-image: url("./fondogaleria.jpg");
+  background-position: center;
+  background-size:cover;
+}
+
+.boxTitulo{
+  
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',Geneva, Verdana, sans-serif;
+  
+}
+
+.boxInicioMarcas {
+  
+  list-style-type:none;
+  text-align: left;
+  font-family:'Gill Sans';
+  font-size: 35px;
+  padding-left: 40px;
+  padding-top: 10px;
+  margin: 50px;
+
+}
+
+.boxInicioMarcas li{
+  padding-top: 10px;
+
+  -webkit-transition: 1.5s linear;
+  transition: 1.5s linear; 
+  text-shadow: 3px 3px 2px rgba(31, 31, 41, 0.7)
+}
+
+.boxInicioMarcas li:hover{
+
+  -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+.boxImagenDetail img{
+  height: 500px;
+  border-radius: 10px;
+
+  -webkit-transition: 1.5s linear;
+  transition: 1.5s linear; 
+}
+
+.boxImagenDetail img:hover{
+
+  -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+.boxInfoDetail h3{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boxInfoDetail h5{
+  font-family: Arial;
+  text-align:center;
+  margin: 10px;
+
+}
+
+.tableCardItem{
+  background-color:aliceblue;
+  border-radius:10px
+}
+
+.boximagenCardItem{
+
+  height: 70px;
+
+}
+
+.boxCompra{
+  background-color:aliceblue;
+  border-radius:10px
 }
