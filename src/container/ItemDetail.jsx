@@ -12,14 +12,15 @@ const ItemDetail = ({product}) => {
         setSuma(quantityToAdd) 
     }
     
+
     return (
-        <div className="row">
+        <div className="row" key={product.id}>
                 <div className="boxImagenDetail col-md-4">
                     <img key={product.id} src={product.image} className="border m-2" alt={product.title} />
                 </div>      
                 <div className="boxInfoDetail card-body col-md-8 p-4">
                     <h3 className="card-title p-2">{product.title}</h3>
-                    <h5 className="p-2 ">Precio:<span></span> ${product.price}.</h5>
+                    <h5 className="p-2 ">Precio: ${product.price}.</h5>
                     <h5 className="p-2">Pantalla: {product.screen}.</h5>
                     <h5 className="p-2">Camaras: {product.camera}</h5>
                     <h5 className="p-2">Procesador: {product.processor}.</h5>

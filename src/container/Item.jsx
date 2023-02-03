@@ -2,6 +2,8 @@ import { Link } from "react-router-dom"
 
 const Item = ({product}) => {
 
+    
+
     return( 
         <div key={product.id} className="boxListCard col-sm-6 col-md-3 p-5">
             <div className="boxCard card">
