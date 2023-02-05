@@ -5,7 +5,7 @@ import { Context } from '../../context/CardContext'
 const NavBar = () => {
     
     const {card} = useContext(Context)
-
+    
     return ( 
         <>
             <nav className="boxNavbar navbar navbar-expand-lg bg-light">
@@ -44,7 +44,6 @@ const NavBar = () => {
                                 </svg>
                                 <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-success">
                                     {card.length}
-                                    <span className="visually-hidden">sadunread messages</span>
                                 </span>
                             </button>
                         </Link>
